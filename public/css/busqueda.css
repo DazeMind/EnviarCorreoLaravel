@@ -1,0 +1,31 @@
+#mostrar {
+    /*estilos para el div principal en donde se muestran los resultados de la busqueda en forma de lista*/
+    width: 70%;
+    /* ancho del div que mostrara los resultados*/
+    display: none;
+    /* esconde el div de muestra os elementos encontrados*/
+    overflow: hidden;
+    /* oculta el contenido texto que desborde del div*/
+}
+
+.div_encontrado
+/*estilos para el div que muestra cada categoria encontrada*/
+    {
+    padding: 2px;
+    padding-left: 10px;
+    font-size: 15;
+    height: 70px;
+    color: #FFF;
+    background-color: rgb(220, 20, 60);
+}
+
+.div_encontrado:hover {
+    /*estilos para el div que muestra cada categoria encontrada. cuando el cursor se pocisiona sobre el area*/
+    background-color: #666;
+}
+
+.div_detalle {
+    /*estilo para el div que muestra el detalle*/
+    color: rgb(255, 255, 255);
+    font-size: 16;
+}

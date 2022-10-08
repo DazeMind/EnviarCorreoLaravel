@@ -1,0 +1,71 @@
+.blur {filter: blur(0px);}
+.crimson{
+    background-color: #DC143C;
+}
+.whitesmok{
+    background-color: #F5F5F5;
+}
+.text-sobre{
+    position: absolute;
+    top: 135px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 2px 2px;
+    font-size: 14px;
+    font-family: "Lucida Bright"; 
+}
+.blur:hover {
+    filter: blur(4px);
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .btn-in{
+    position: relative;
+  }
+  .btn-in:hover .image {
+    opacity: 0.3;
+  }
+  
+  .btn-in:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #dc143c00;
+    color: white;
+    font-size: 15px;
+    font-family: "Times New Roman"; 
+
+  }
+  .zoom {
+    transition: transform .2s; /* Animation */
+    margin: 1 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .nolink{
+    color: white;
+    text-decoration: none;
+  }
+
+  /* CArrousel*/
+
